@@ -1,0 +1,66 @@
+.feedback-form {
+    margin-top: -80px;
+    text-align: center;
+
+}
+
+.name {
+
+   
+    margin: 0 0 0 20px ;
+    text-align: left;
+}
+
+.form-name {
+    display: block;
+    margin: -5px 0 0 20px ;
+    height: 25px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+.comment {
+    margin: 20px 0 0 20px ;
+    text-align: left;
+
+}
+.form-comment {
+    display: block;
+    margin: 15px 0 0 20px ;
+    height: 30px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.form-comment::placeholder {
+    margin-top:-30px;
+}
+
+.form-name .form-comment :focus {
+    outline: none;
+}
+.form {
+    width: 100%;
+}
+
+.inputs {
+    padding: 20px 50px;
+}
+
+.submit {
+    padding: 5px 8px;
+    margin: 10px 10px 0 100px;
+    right: 20px;
+    font-size: 17px;
+    font: bold;
+    cursor: pointer;
+}
+
+.form-nav{
+    width:100%;
+    justify-content: center;
+}
+

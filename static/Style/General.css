@@ -1,0 +1,29 @@
+body {
+    font-family: Roboto;
+    text-align: left;
+    padding: 20px 30px ;
+}
+
+.outer-box {
+    border: 1px solid black;
+    padding: 75px 20px 20px 20px;
+    background-color: gainsboro;
+}
+
+.link {
+
+    margin: 40px 0 0 0;
+    font-size:20px;
+    transition: color 0.15s;
+    color: rgb(28, 28, 211);
+}
+
+.link:hover {
+    color: rgb(103, 103, 241);
+
+}
+
+.link:active {
+    color: red;
+
+}

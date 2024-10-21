@@ -1,0 +1,18 @@
+.welcome {
+    left: 38px; 
+    right:38px; 
+    top:0; 
+    height:70px;
+    background-color:gainsboro;
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+
+.sub-topic {
+
+    font-size: 18px;
+    font-weight: 600;
+}
+

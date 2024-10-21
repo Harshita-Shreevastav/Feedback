@@ -1,0 +1,68 @@
+ {% extends "base.html" %}
+
+ {% block head %}
+
+<title> Form </title>
+
+{% endblock %}
+
+
+
+{% block body %}
+<div class="form-box">
+
+    <div class="feedback-form">
+        <h1> Feedback Form</h1>
+    </div>
+
+    <form action="/form" method="POST" >
+        <div class="form-interaction" style="display: flex; flex-direction: column;">
+            <div  class="inputs" style="display: flex;" >
+    
+                <div class="fields">
+    
+                    <p class="name">
+                        Name:
+                    </p>
+    
+                    <p class="comment">
+                        Comment:
+                    </p>
+    
+                </div>
+    
+                <div class="form">
+                   
+                    <input class="form-name" type="text" name='user' placeholder="Type your name here">
+                    <input class="form-comment" type="text" name='cmt' placeholder="Comment">
+                        
+        
+                    
+                </div>
+                
+            </div>
+    
+            <div class="form-nav" style="display: flex;">
+    
+                <div>
+                    
+                    <input class="submit" type="submit" value="Submit Form" name="status" role="button">
+                    
+                </div>
+    
+                <div style="padding: 15px;">
+                    <a class="link" href="/" style=" font-size: 15px;
+                        margin: 40px 200px 0 0;">
+                        Go Back to Home
+                    </a>
+                </div>
+    
+            </div>
+        </div>
+    </form>
+    
+
+</div>
+
+{% endblock%}
+

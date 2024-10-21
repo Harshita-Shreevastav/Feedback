@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block head %}
+<title>
+    Enteries
+</title>
+
+{% endblock %}
+
+{% block body%}
+ <div style="display: flex; align-items: center; flex-direction: column;">
+    <div class="thankyou">
+        <h2> 
+            Thankyou for your feedback, {{user}}!
+        </h2>
+    </div>
+    <div class="record" style="margin-left: -60px;">
+        <div class="title-or">
+            <p>
+                Below are more such comments:
+            </p>
+        </div>
+        <div class="or">
+            <ul>
+
+                {% for ele,val in name_comment.items(): %}
+                    {% for value in val: %}
+                        <li> <strong>{{ele}} :</strong> {{value}}</li>
+                    {% endfor %}
+                {% endfor %}
+            </ul>
+            
+        </div>
+    </div>
+    
+    
+ </div>
+ <div class="more-comments">
+    <a href="/form" > Upload more comments</a>
+ </div>
+
+ {% endblock %}
